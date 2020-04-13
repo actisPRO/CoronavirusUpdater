@@ -1,0 +1,5 @@
+﻿email to send from      |       blablabla@gmail.com
+password                |       123456789
+smtp server address     |       smtp.gmail.com
+smtp server port        |       587
+use ssl?                |       true
