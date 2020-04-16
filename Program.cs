@@ -70,9 +70,8 @@ namespace CoronavirusUpdater
             for (var i = 0; i < 4; ++i)
             {
                 var change = todayData[i] - yesterdayData[i];
-                if (change > 0) changes[i] = $" (+{change})";
+                if (change != 0) changes[i] = $" (+{change})";
                 else if (change == 0) changes[i] = "";
-                else changes[i] = $" (-{change})";
             }
 
             //don't need this
